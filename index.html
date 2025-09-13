@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="left-logo">
             <img src="./imgs/Myla Logo.png" alt="MYLA Logo">
             <p>MYLA</p>
@@ -41,30 +41,30 @@
             </ul>
         </div>
     </header>
+    <div class="sidebar">
+        <p>Navigation</p>
+        <ul class="navigation">
+            <li><span class="material-symbols-outlined">
+                    dashboard
+                </span><a href="#dashboard">Dashboard</a></li>
+            <li><span class="material-symbols-outlined">
+                    target
+                </span><a href="#tasks">Life Projects</a></li>
+            <li><span class="material-symbols-outlined">
+                    folder_open
+                </span><a href="#calendar">Documents</a></li>
+            <li><span class="material-symbols-outlined">
+                    attach_money
+                </span><a href="#notes">Finances</a></li>
+            <li><span class="material-symbols-outlined">
+                    savings
+                </span><a href="#settings">Split</a></li>
+            <li><span class="material-symbols-outlined">
+                    mail
+                </span><a href="#profile">Emails</a></li>
+        </ul>
+    </div>
     <main>
-        <div class="sidebar">
-            <p>Navigation</p>
-            <ul class="navigation">
-                <li><span class="material-symbols-outlined">
-                        dashboard
-                    </span><a href="#dashboard">Dashboard</a></li>
-                <li><span class="material-symbols-outlined">
-                        target
-                    </span><a href="#tasks">Life Projects</a></li>
-                <li><span class="material-symbols-outlined">
-                        folder_open
-                    </span><a href="#calendar">Documents</a></li>
-                <li><span class="material-symbols-outlined">
-                        attach_money
-                    </span><a href="#notes">Finances</a></li>
-                <li><span class="material-symbols-outlined">
-                        savings
-                    </span><a href="#settings">Split</a></li>
-                <li><span class="material-symbols-outlined">
-                        mail
-                    </span><a href="#profile">Emails</a></li>
-            </ul>
-        </div>
         <div class="content">
             <div class="small-nav">
                 <ul class="small-nav">
@@ -73,57 +73,62 @@
                     <li>Categories</li>
                     <li>Expirations</li>
                 </ul>
-                <div class="top-cards">
-                    <div class="card">Vault</div>
-                    <div class="card">Search</div>
-                    <div class="card">Categories</div>
-                    <div class="card">Expirations</div>
-                </div>
-                <div class="search-icons">
-                    <div class="card">Search</div>
-                    <div class="card">Search</div>
-                    <div class="card">Categories</div>
-                    <div class="card">Expirations</div>
-                </div>
+            </div>
+            <div class="top-cards">
+                <div class="card">Vault</div>
+                <div class="card">Search</div>
+                <div class="card">Categories</div>
+                <div class="card">Expirations</div>
+            </div>
+            <div class="main-section">
                 <div class="documents-section">
-                    <div class="documents-grid">
-                        <div class="document-card">
-                            <img src="./imgs/document1.png" alt="Document 1">
-                            <p>Passport</p>
-                        </div>
-                        <div class="document-card">
-                            <img src="./imgs/document2.png" alt="Document 2">
-                            <p>Driver's License</p>
-                        </div>
-                        <div class="document-card">
-                            <img src="./imgs/document3.png" alt="Document 3">
-                            <p>Insurance</p>
-                        </div>
-                        <div class="document-card">
-                            <img src="./imgs/document4.png" alt="Document 4">
-                            <p>Bank Statement</p>
-                        </div>
-                        <div class="document-card">
-                            <img src="./imgs/document5.png" alt="Document 5">
-                            <p>Tax Document</p>
-                        </div>
-                        <div class="document-card">
-                            <img src="./imgs/document6.png" alt="Document 6">
-                            <p>Medical Record</p>
-                        </div>
+                    <div class="search-icons">
+                        <div class="card">Search</div>
+                        <div class="card">Search</div>
+                        <div class="card">Categories</div>
+                        <div class="card">Expirations</div>
+                    </div>
+
+                    <div class="document-card">
+                        <img src="./imgs/document1.png" alt="Document 1">
+                        <p>Passport</p>
+                    </div>
+                    <div class="document-card">
+                        <img src="./imgs/document2.png" alt="Document 2">
+                        <p>Driver's License</p>
+                    </div>
+                    <div class="document-card">
+                        <img src="./imgs/document3.png" alt="Document 3">
+                        <p>Insurance</p>
+                    </div>
+                    <div class="document-card">
+                        <img src="./imgs/document4.png" alt="Document 4">
+                        <p>Bank Statement</p>
+                    </div>
+                    <div class="document-card">
+                        <img src="./imgs/document5.png" alt="Document 5">
+                        <p>Tax Document</p>
+                    </div>
+                    <div class="document-card">
+                        <img src="./imgs/document6.png" alt="Document 6">
+                        <p>Medical Record</p>
                     </div>
 
                 </div>
-
+                <div class="right-info-bar">
+                    <div class="info-card">Pinned Documents</div>
+                    <div class="info-card">Recent Activity</div>
+                    <div class="info-card">Storage Used</div>
+                </div>
             </div>
-
         </div>
-
     </main>
     <footer>
         <p>&copy; 2024 MYLA. All rights reserved.</p>
     </footer>
-    <div class="myla-chatbox"></div>
+    <div class="myla-chatbox">
+        <span class="material-symbols-outlined">message</span>
+    </div>
     <script src="script.js"></script>
 </body>
 
