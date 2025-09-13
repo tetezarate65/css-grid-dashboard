@@ -54,7 +54,6 @@ main {
     min-height: calc(100vh - 60px);
 }
 .content {
-    padding: 20px;
     display: grid;
     grid-template-columns: repeat(4,  1fr);
 }
@@ -66,12 +65,8 @@ main {
     gap: 20px;
 }
 .content .small-nav {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    
+    padding: 5px;
     grid-column: 1 / 5;
 }
 
@@ -81,6 +76,7 @@ main {
     list-style: none;
     padding: 0;
     margin: 0;
+    justify-self: center;
 }
 
 .top-cards {
@@ -136,6 +132,14 @@ main {
     grid-column: 4 / 5;
 }
 
+.document-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
 footer {
     grid-column: 1 / 4;
@@ -146,6 +150,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+footer p{
+    padding: 2px;
+    margin: 0px;
 }
 
 .myla-chatbox {
